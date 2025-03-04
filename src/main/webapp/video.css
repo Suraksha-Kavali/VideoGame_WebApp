@@ -1,0 +1,664 @@
+body {
+    background-color: black;
+}
+
+* {
+
+    margin: 0%;
+}
+
+#one {
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    font-size: 60px;
+}
+
+#two {
+    color: rgb(46, 96, 167);
+    position: absolute;
+    top: 280px;
+    left: 150px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+p {
+    color: white;
+    width: 40%;
+    position: absolute;
+    bottom: 120px;
+    left: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    line-height: 1.5;
+}
+
+button {
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    padding: 10px 40px;
+    border-right: 14px solid rgb(46, 96, 167);
+    border-left: 14px solid rgb(46, 96, 167);
+    border-top: 4px solid rgb(46, 96, 167);
+    border-bottom: 4px solid rgb(46, 96, 167);
+    border-radius: 30px;
+}
+
+#img {
+    height: 500px;
+    width: 400px;
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page291/gamepad/assets/images/img-1.png");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    color: black;
+    position: sticky;
+    top: 0%;
+}
+
+#list {
+    width: 120%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gamepad {
+    color: rgb(33, 143, 187);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+#game {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#gam {
+    color: black;
+    text-decoration: none;
+}
+
+#parent {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(215, 250, 250);
+    border: 10px solid white;
+    position: relative;
+    top: 700px;
+    left: 0%;
+    right: 0%;
+
+
+}
+
+#child1 {
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+#child2 {
+    color: black;
+    text-align: right;
+    position: absolute;
+    top: 250px;
+    left: 750px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+#img1 {
+    height: 500px;
+    width: 500px;
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page291/gamepad/assets/images/img-2.png");
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    position: absolute;
+    left: 80px;
+    top: 100px;
+}
+
+#button2 {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 220px;
+    left: 1100px;
+    font-size: large;
+    padding: 10px 40px;
+    border-right: 14px solid rgb(46, 96, 167);
+    border-left: 14px solid rgb(46, 96, 167);
+    border-top: 4px solid rgb(46, 96, 167);
+    border-bottom: 4px solid rgb(46, 96, 167);
+    border-radius: 30px;
+}
+
+#parent2 {
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    border: 10px solid white;
+    position: relative;
+    top: 700px;
+    left: 0%;
+    right: 0%;
+}
+
+#child3 {
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 470px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#child4 {
+    text-transform: uppercase;
+    color: rgb(46, 96, 167);
+    position: absolute;
+    top: 100px;
+    left: 620px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#para {
+    width: 1300px;
+    color: black;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    text-align: center;
+    font-size: 400;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 100%;
+}
+
+#img3 {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 80px;
+    top: 350px;
+}
+
+#img4 {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 800px;
+    top: 350px;
+}
+
+#price {
+    text-transform: uppercase;
+    color: rgb(46, 96, 167);
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+#pr {
+    color: black;
+    position: absolute;
+    top: 600px;
+    left: 330px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+#price2 {
+    text-transform: uppercase;
+    color: rgb(46, 96, 167);
+    position: absolute;
+    top: 600px;
+    left: 920px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+#pr1 {
+    color: black;
+    position: absolute;
+    top: 600px;
+    left: 1050px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+#video {
+    color: black;
+    position: absolute;
+    top: 660px;
+    left: 920px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+#video1 {
+    color: black;
+    position: absolute;
+    top: 660px;
+    left: 200px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+#p1 {
+    color: black;
+    position: absolute;
+    top: 730px;
+    left: 85px;
+    width: 38%;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 130%;
+}
+
+#p2 {
+    color: black;
+    position: absolute;
+    top: 730px;
+    left: 780px;
+    width: 38%;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 130%;
+}
+
+#button3 {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 80px;
+    left: 600px;
+    font-size: large;
+    padding: 10px 40px;
+    border-right: 14px solid rgb(46, 96, 167);
+    border-left: 14px solid rgb(46, 96, 167);
+    border-top: 4px solid rgb(46, 96, 167);
+    border-bottom: 4px solid rgb(46, 96, 167);
+    border-radius: 30px;
+}
+
+#parent3 {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    top: 200px;
+}
+
+#three {
+    color: rgb(46, 96, 167);
+    text-transform: uppercase;
+    position: absolute;
+    top: 600px;
+    left: 60px;
+    font-size: 60px;
+}
+
+#image5 {
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page291/gamepad/assets/images/img-4.png);
+    height: 500px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+    position: absolute;
+    left: 750px;
+    top: 700px;
+}
+
+#four {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 680px;
+    left: 60px;
+    font-size: 55px;
+}
+
+#five {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 730px;
+    left: 60px;
+    font-size: 55px;
+}
+
+#six {
+    color: white;
+    width: 40%;
+    position: absolute;
+    top: 850px;
+    left: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+#seven {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 980px;
+    left: 65px;
+    font-size: large;
+    padding: 10px 40px;
+    border-right: 14px solid rgb(46, 96, 167);
+    border-left: 14px solid rgb(46, 96, 167);
+    border-top: 4px solid rgb(46, 96, 167);
+    border-bottom: 4px solid rgb(46, 96, 167);
+    border-radius: 30px;
+}
+
+#parent4 {
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    border: 10px solid white;
+    position: relative;
+    top: 700px;
+    left: 0%;
+    right: 0%;
+}
+
+#eight {
+    color: black;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+#nine {
+    width: 1300px;
+    color: black;
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    font-size: 400;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 100%;
+}
+
+fieldset {
+    height: 400px;
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 3%;
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+
+#ten {
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+#eleven {
+    width: 750px;
+    color: black;
+    position: absolute;
+    top: 450px;
+    left: 300px;
+    color: black;
+    font-size: 400;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#twelve {
+    background-color: rgb(41, 167, 206);
+    height: 130px;
+    width: 350px;
+    position: absolute;
+    top: 580px;
+    left: 300px;
+}
+
+#thirteen {
+    position: absolute;
+    top: 580px;
+    left: 320px;
+    z-index: 1;
+}
+
+#fourteen {
+    position: absolute;
+    top: 620px;
+    left: 430px;
+    font-size: large;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#fifteen {
+    position: absolute;
+    top: 660px;
+    left: 430px;
+    font-size: medium;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#button4 {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 75px;
+    left: 570px;
+    font-size: large;
+    padding: 10px 40px;
+    border-right: 14px solid rgb(46, 96, 167);
+    border-left: 14px solid rgb(46, 96, 167);
+    border-top: 4px solid rgb(46, 96, 167);
+    border-bottom: 4px solid rgb(46, 96, 167);
+    border-radius: 30px;
+}
+
+#parent5 {
+    height: 600px;
+    width: 100%;
+
+    background-color: rgb(238, 221, 221);
+    border-top: 10px solid white;
+    position: relative;
+    top: 700px;
+    left: 0%;
+    right: 0%;
+}
+
+#img6 {
+    height: 500px;
+    width: 500px;
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page291/gamepad/assets/images/img-6.png);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+
+#sixteen {
+    height: 700px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    line-height: 3.5%;
+}
+
+#parent6 {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    top: 650px;
+    left: 0%;
+    right: 0%;
+}
+
+#ondu {
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+#yeradu {
+    color: white;
+    width: 250px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    line-height: 1.5;
+}
+
+#mooru {
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 400px;
+}
+
+#nalku {
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 185px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    line-height: 2;
+}
+
+#aidu {
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 700px;
+}
+
+#aaru {
+    color: white;
+    width: 250px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    line-height: 1.5;
+}
+
+#yelu {
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 1050px;
+}
+
+#parent7 {
+    position: relative;
+    top: 700px;
+    background-color: rgb(46, 96, 167);
+    height: 50px;
+    width: 100%;
+
+
+}
+
+#sihi {
+    width: 800px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 260px;
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
